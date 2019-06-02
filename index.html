@@ -1,98 +1,296 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="vin.ico">
-  <title>Vinod Nimbalkar</title>
-
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://use.fontawesome.com/000024d7d2.js"></script>
-
-  <!-- Custom styles for this template -->
-  <link href="css/cover.css" rel="stylesheet">
-</head>
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vinodnimbalkar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+<link rel="icon" href="https://avatars3.githubusercontent.com/u/16244310?v=4" type="image/png"></head>
 
 <body>
-
-  <div class="site-wrapper">
-
-    <div class="site-wrapper-inner">
-      <div class="cover-container">
-          <img src="vin.jpg" class="rounded-circle" width="120" height="120">
-        <div class="inner cover">
-          <h1 class="cover-heading display-3  font-weight-bold">Vinod Nimbalkar</h1>
-		<a title="" class="icon" href="#"> <i class="fa fa-code fa-3x"></i> </a>
-            <div id="arraytext" class="text"></div>
-          <p class="lead text-center">I'm a MCA Student at BVIMIT, Navi Mumbai. 
-            <br>My interests include Data Scraping, Machine Learning, Web Development and Data Mining.</p>
-            <p class="lead">
-              <ul class="list-inline">
-                <li class="list-inline-item"><a href="mailto:omvinod24@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x fa-fw" aria-hidden="true"></i></a></li>
-                <li class="list-inline-item"><a href="https://github.com/vinodnimbalkar" target="_blank"><i class="fa fa-github fa-2x fa-fw" aria-hidden="true"></i></li>
-                <li class="list-inline-item"><a href="https://www.facebook.com/omvinod" target="_blank"><i class="fa fa-facebook-official fa-2x fa-fw" aria-hidden="true"></i></li>
-                <li class="list-inline-item"><a href="https://twitter.com/vinodnimbalkar" target="_blank"><i class="fa fa-twitter fa-2x fa-fw" aria-hidden="true"></i></li>
-                <li class="list-inline-item"><a href="https://www.linkedin.com/in/vinodnimbalkar/" target="_blank"><i class="fa fa-linkedin fa-2x fa-fw" aria-hidden="true"></i></li>
-              </ul>
-              <a href="Resume.pdf" class="btn btn-secondary font-weight-bold" target="_blank">Resume</a>
-            </p>
-          </div>
-
-          <div>
-            <div class="inner">
-              <!-- <p class="blockquote-footer">Cover template by <a href="https://twitter.com/mdo">@mdo</a>.</p> -->
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
+    <div id="loading">
+        <div id="spinner"></div>
     </div>
+    <div id="profile">
+        <div id="profile_img" style="background: url(https://avatars3.githubusercontent.com/u/16244310?v=4) center;"></div>
+        <div id="username"><span style="display:block;">Vinod Nimbalkar</span><a href="https://github.com/vinodnimbalkar">@vinodnimbalkar</a></div>
+        <div id="userbio" style="display: block;">Python Developer, Machine-Learning, AI enthusiast and in ♥ with flutter.</div>
+        <div id="about">
+                <span style="display:block;"><i class="fas fa-users"></i> &nbsp; NearLaw</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="http://vinodnimbalkar.github.io">http://vinodnimbalkar.github.io</a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Navi Mumbai, India</span>
+                <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span></div>
+    </div>
+    <div id="display">
+        <div id="work">
+            <h1>Work.</h1>
+            <div class="projects" id="work_section">
+                        <a href="https://github.com/vinodnimbalkar/BotMarathi" target="_blank">
+                        <section>
+                            <div class="section_title">BotMarathi</div>
+                            <div class="about_section">
+                            <span style="display:block;">A Python <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f40d.png?v8" class="emoji"> Marathi bot that automates several actions on Twitter, such as retweet tweet. </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 4</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/vinodnimbalkar/dotfiles" target="_blank">
+                        <section>
+                            <div class="section_title">dotfiles</div>
+                            <div class="about_section">
+                            <span style="display:block;"> <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png?v8" class="emoji"></span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Shell</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/vinodnimbalkar/MarathiDictionaryAPI" target="_blank">
+                        <section>
+                            <div class="section_title">MarathiDictionaryAPI</div>
+                            <div class="about_section">
+                            <span style="display:block;">Marathi Dictionary API</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/vinodnimbalkar/DailyNewspaperMail" target="_blank">
+                        <section>
+                            <div class="section_title">DailyNewspaperMail</div>
+                            <div class="about_section">
+                            <span style="display:block;">Download daily e-paper and send it using email.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/vinodnimbalkar/python-playground" target="_blank">
+                        <section>
+                            <div class="section_title">python-playground</div>
+                            <div class="about_section">
+                            <span style="display:block;">Simple python scripts and experiments</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/vinodnimbalkar/GSTApp" target="_blank">
+                        <section>
+                            <div class="section_title">GSTApp</div>
+                            <div class="about_section">
+                            <span style="display:block;">GST stands for General Service Tax. The information contained in the mobile app is simplified representation of complete Rules and Regulation</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/vinodnimbalkar/DjangoCrud" target="_blank">
+                        <section>
+                            <div class="section_title">DjangoCrud</div>
+                            <div class="about_section">
+                            <span style="display:block;">Django Crud Application</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/vinodnimbalkar/vinodnimbalkar.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">vinodnimbalkar.github.io</div>
+                            <div class="about_section">
+                            <span style="display:block;">Just a landing page about me! </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/vinodnimbalkar/ProKabaddi-Data-Analysis" target="_blank">
+                        <section>
+                            <div class="section_title">ProKabaddi-Data-Analysis</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 2</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/vinodnimbalkar/emd" target="_blank">
+                        <section>
+                            <div class="section_title">emd</div>
+                            <div class="about_section">
+                            <span style="display:block;">English Marathi Dictionary Website</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/vinodnimbalkar/SpringCrud" target="_blank">
+                        <section>
+                            <div class="section_title">SpringCrud</div>
+                            <div class="about_section">
+                            <span style="display:block;">Crud operations</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/vinodnimbalkar/VinDict-Android-App" target="_blank">
+                        <section>
+                            <div class="section_title">VinDict-Android-App</div>
+                            <div class="about_section">
+                            <span style="display:block;">English-Marathi app</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a></div>
+        </div>
+        <div id="forks" style="display: block;">
+            <h1>Forks.</h1>
+            <div class="projects" id="forks_section">
+                            <a href="https://github.com/vinodnimbalkar/IGN" target="_blank">
+                            <section>
+                                <div class="section_title">IGN</div>
+                                <div class="about_section">
+                                <span style="display:none;">undefined</span>
+                                </div>
+                                <div class="bottom_section">
+                                    <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                    <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                    <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                                </div>
+                            </section>
+                            </a>
+                            <a href="https://github.com/vinodnimbalkar/PyTLDR" target="_blank">
+                            <section>
+                                <div class="section_title">PyTLDR</div>
+                                <div class="about_section">
+                                <span style="display:block;">A python module that automatically summarizes text documents and web pages</span>
+                                </div>
+                                <div class="bottom_section">
+                                    <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                    <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                    <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                                </div>
+                            </section>
+                            </a>
+                            <a href="https://github.com/vinodnimbalkar/share-this" target="_blank">
+                            <section>
+                                <div class="section_title">share-this</div>
+                                <div class="about_section">
+                                <span style="display:block;">Medium-like text selection sharing without dependencies</span>
+                                </div>
+                                <div class="bottom_section">
+                                    <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                    <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                    <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                                </div>
+                            </section>
+                            </a>
+                            <a href="https://github.com/vinodnimbalkar/ProKabaddi" target="_blank">
+                            <section>
+                                <div class="section_title">ProKabaddi</div>
+                                <div class="about_section">
+                                <span style="display:block;">Scrape Pro Kabaddi Data</span>
+                                </div>
+                                <div class="bottom_section">
+                                    <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; R</span>
+                                    <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                    <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                                </div>
+                            </section>
+                            </a></div>
+        </div>
+        <div id="blog_section">
+            <h1>Blog.</h1>
+            <div id="blogs"></div>
+        </div>
+        <div id="footer">
+            <a href="https://github.com/vinodnimbalkar" target="_blank">made on earth by a human</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        setTimeout(function () {
+            document.getElementById("loading").classList.add("animated");
+            document.getElementById("loading").classList.add("fadeOut");
+            setTimeout(function () {
+                document.getElementById("loading").classList.remove("animated");
+                document.getElementById("loading").classList.remove("fadeOut");
+                document.getElementById("loading").style.display = "none";
+            }, 800);
+        }, 1500);
+        $.getJSON("blog.json", function (blog) {
+            blog = blog || [];
+            if (blog.length == 0) {
+                return document.getElementById("blog_section").style.display = "none";
+            }
+            for (var i = 0; i < blog.length; i++) {
+                $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+            }
+        }).fail(function () {
+            return document.getElementById("blog_section").style.display = "none";
+        });
+    </script>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-	<!-- New Style and pattern added -->
-	<canvas></canvas>
-	<script src="js/pattern.js"></script>
-
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/snow.js"></script>
-        <script type="text/javascript">
-        var textarray = [
-            "printf (Hello, World !);",
-            "PRINT Hello, World !;",
-            "Print['Hello, World !']",
-            "NSLog(@'Hello, World !');",
-            "echo 'Hello, World !';",
-            "print('Hello, World !')",
-            "WRITE 'Hello, World !'.",
-            "trace('Hello, World !');",
-            "WRITE 'Hello, World !'.",
-            "MSG: .ASCIIZ 'Hello, World !'",
-            "10 PRINT 'Hello, World !'",
-            //"<p>Hello, World !</p>",
-            "put 'Hello, World !'",
-            "puts 'Hello, World !'",
-            "PRINT *, 'Hello, World !'"
-        ];
-
-        function RndText() {
-            var rannum = Math.floor(Math.random() * textarray.length);
-            document.getElementById('arraytext').innerHTML = textarray[rannum];
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js');
+            });
         }
-        onload = function() {
-            RndText();
-        }
+    </script>
 
-        var inter = setInterval(function() {
-            RndText();
-        }, 500);
-        </script>
-  </body>
-  </html>
 
+</body></html>
